@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    background-color: #ecebda;
+}
+.container-fluid{
+    align-items: center;
+}
+.container-fluid img{
+    width: 3rem;
+    border-radius: 10px;
+}
+.container-fluid a{
+    color: #e5af6c;
+}
+
+header nav{
+    background-color: #ecebda;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    padding: 0.7rem 0.6rem;
+}
+header nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+header nav .logo img{
+    width: 15%;
+    border-radius: 10px;
+} 
+header nav .logo p{
+    color: #e5af6c;
+}
+header nav .nav-icons{
+    display: flex;
+    gap: 1rem;
+}
+header nav .nav-icons a{
+    color: #414141;
+    font-weight: 500;
+}
+header nav .nav-icons p a{
+    color: #e5af6c;
+}
+header nav .nav-cta button{
+    background-color: #e5af6c;
+    border: 1px solid #e5af6c;
+    padding: 0.5rem 0.8rem;
+    margin-right: 0.4rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+header nav .nav-cta button:hover{
+    background-color: #ffc57e;
+}
+header .header{
+    background: linear-gradient(transparent, rgba(53, 53, 53, 0.316), grey), url(./pictures/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+header .header h1{
+    padding-top: 22%;
+    color: #e5af6c;
+    text-align: right;
+    font-size: 3.5rem;
+    -webkit-text-stroke-color: #ff9a67;
+    -webkit-text-stroke-width: 0.4px;
+}
+header .header h1 span{
+    color: #ff9a67;
+}
+header .header p{
+    color: whitesmoke;
+    text-align: right;
+    width: 60%;
+}
+header .header p span{
+    color: #dbbf9c;
+    text-align: right;
+}
+header .header .header-cta{
+    display: flex;
+    margin: 1rem 0;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+header .header .header-cta>*{
+    padding: 0.6rem 1.4rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+header .header .header-cta>:nth-child(1){
+    background-color: #ff7a37;
+    border: 1px solid #ff7a37;
+}
+header .header .header-cta>:nth-child(2){
+    background-color: #d4a931;
+    border: 1px solid #d4a931;
+}
+header .about{
+    padding: 2rem 3rem;
+    text-align: center;
+    background-color: rgb(246, 240, 240);
+}
+header .about h1{
+    color: #ff7a37;
+}
+header .about p{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    color: #535353;
+}
+header .about .facilities-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2.5rem 0;
+    gap: 2rem;
+    width: 100%;
+}
+header .about .facilities-area .facilities{
+    width: 16rem;
+    background-color: #ffc57e;
+    border-radius: 100px;
+    padding: 1rem 0rem;
+}
+header .about .facilities-area .facilities:nth-child(1) p:nth-child(1){
+    color: rgb(233, 146, 39);
+}
+header .about .facilities-area .facilities:nth-child(2){
+    background-color: #ffbe9d;
+}
+header .about .facilities-area .facilities:nth-child(2) p:nth-child(1){
+    color: #ff6619;
+}
+header .about .facilities-area .facilities:nth-child(3){
+    background-color: #ecd7be;
+}
+header .about .facilities-area .facilities:nth-child(3) p:nth-child(1){
+    color: #946c3c;
+}
+header .about .facilities-area .facilities:nth-child(4){
+    background-color: #f5e1d3;
+}
+header .about .facilities-area .facilities:nth-child(4) p:nth-child(1){
+    color: #b17b55;
+}
+header .about .facilities-area .facilities span{
+    color: white;
+    font-size: 2rem;
+    padding: 0.4rem;
+}
+header .about .facilities-area .facilities .facility-writeup{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+header .about .facilities-area .facilities .facility-writeup p:nth-child(1){
+    font-size: 1.3rem;
+    margin-bottom: -1.3rem;
+}
+
+main{
+    text-align: center;
+    padding: 0.8rem 0;
+    background: linear-gradient(transparent, rgb(65, 65, 65)), url(./pictures/mission.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+main h1{
+    color: #c88737;
+    margin-bottom: 0.1rem;
+}
+main p{
+    color: #e7e7e7;
+}
+.photo-gallery{
+    background-color: #f2e8db;
+    text-align: center;
+    padding: 1rem;
+}
+.carousel-item{
+    border-radius: 4px;
+    height: 70%;
+    background-position: cover;
+}
+
+footer{
+    background-color: #c88737;
+}
+footer .ft-1{
+    padding: 1rem;
+}
+footer .ft-1 h2{
+    color: #2c2929;
+    margin-bottom: 0.6rem;
+}
+footer .ft-1 .ft-1-div{
+    display: flex;
+    gap: 1rem;
+}
+footer .ft-1 .ft-1-div span{
+    color: #ebe1b3;
+}
+footer .ft-1 .ft-1-div p{
+    color: #363434;
+}
+footer .ft-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 0.8rem 0.4rem 0.8rem;
+}
+footer .ft-2 a{
+    color: #5a5a5a;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    header .header{
+        background: linear-gradient(transparent, rgba(53, 53, 53, 0.316), grey), url(./pictures/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-right: 1rem;
+        padding-top: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    header .header h1{
+        color: #e5af6c;
+        text-align: right;
+        font-size: 2rem;
+        -webkit-text-stroke-color: #ff9a67;
+        -webkit-text-stroke-width: 0.1px;
+    }
+    header .header p{
+        display: none;
+        color: whitesmoke;
+        text-align: right;
+        width: 40%;
+    }
+    header .header .header-cta>*{
+        padding: 0.4rem 0.7rem;
+        border-radius: 5px;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    header .about p{
+        width: 100%;
+        padding: 0.2rem 0;
+        line-height: 0.99rem;
+        color: #535353;
+    }
+    header .about .facilities-area .facilities{
+        width: 16rem;
+        background-color: #ffc57e;
+        border-radius: 100px;
+        padding: 2.4rem 0rem;
+
+    }
+    header .about .facilities-area{
+        padding-left: 4%;
+    }
+}
